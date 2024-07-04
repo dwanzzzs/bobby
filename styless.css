@@ -1,0 +1,188 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #999999;;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+    background: #999999;
+    max-height: 100%;
+    width: 100%;
+
+}
+
+.header-image {
+    width: 100%;
+    height: auto;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px;
+}
+
+.menu-text {
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-weight: bold;
+    font-size: medium;
+    display: inline-block;
+    width: 30px;
+    height: 3px;
+    margin: 6px;
+}
+
+.hamburger {
+    display: inline-block;
+    cursor: pointer;
+}
+
+.hamburger div {
+    width: 30px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+}
+
+
+.container {
+    background: #999999;
+    padding: 20px; /* Tambahkan padding 20px di sekeliling konten */
+}
+
+h1 {
+    margin: 0;
+    color: #fff;
+    font-family: "Futura Book";
+    font-weight: normal;
+    font-size: normal;
+    
+}
+
+main {
+    text-align: left;
+    color: #fff;
+}
+
+h2 {
+    color: #ffffff;
+    font-family: futura-bk-pt;
+    font-size: medium;
+    font-style: italic;
+}
+
+p {
+    color: #ffffff;
+    line-height: 1.5;
+    font-style: italic;
+    font-family: "Futura Book";
+}
+
+
+.portfolio {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.portfolio-item {
+    width: 80%;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: fixed;
+}
+
+.portfolio-item p {
+    margin: 10px 0 0;
+    font-weight: bold;
+}
+
+.about html main {
+    text-align: justify;
+
+}
+
+footer {
+    background: #999999;
+    padding: 20px 0;
+    text-align: left; /* Mengatur teks menjadi kiri */
+    font-family: Arial, sans-serif;
+    margin-top: 50px; /* Sesuaikan dengan kebutuhan */
+    display: flex; /* Menggunakan flexbox untuk mengatur posisi item */
+    justify-content: flex-start; /* Menggeser item ke kiri */
+}
+
+.footer-section {
+    margin-right: 20px; /* Jarak antar bagian footer */
+}
+
+.footer-section:last-child {
+    margin-right: 0; /* Menghilangkan margin kanan pada bagian footer terakhir */
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.footer-section ul li a:hover {
+    color: #ffffff;
+}
+.footer-section:last-child {
+    margin-right: 40px; /* Menggeser lebih ke kanan */
+}
+
+
+@media (max-width: 768px) {
+    .hamburger div {
+        width: 25px;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        height: 50vh;
+    }
+
+    .hamburger div {
+        width: 20px;
+    }
+
+    .text-overlay {
+        font-size: 16px;
+        bottom: 5px;
+        padding: 3px 7px;
+    }
+}

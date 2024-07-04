@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about </title>
+    <link rel="stylesheet" href="about.css">
+    <link href="https://fonts.googleapis.com/css?family="FuturaBT Book", Arial, sans-serif:400,500,600,700,800" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="navbar">
+            <div class="hamburger">
+                <span class="menu-text"></span>
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+        <img src="images/about.jpg" alt="Header Image" class="header-image">
+    </div>
+
+</body>
+<body>
+
+    <div class="container">
+        <main>
+            <h2>Bobby Photography since 2020
+                <br>was born from our happiness
+                <br>in capturing the beautiful moments of a couple</br>
+            </h2>
+            <h5>We are driven by the desire to capture the beauty of love,
+            <br> creating a timeless and unique visual story to always remember</br>
+            </h5>
+            
+            <footer>
+                <div class="footer-section">
+                    <h3>────────────────────────</h3>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>               
+                    </ul>
+                    <div class="footer-section">
+                        <h3>Gallery/Portfolio↓</h3>
+                        <ul>
+                            <li><a href="wedding.html">Wedding</a></li>
+                            <li><a href="before.html">Before Wedding</a></li>
+                            <li><a href="couple.html">Couple</a></li>
+                            <li><a href="otherwork.html">Other Works</a></li>
+                        </ul>    
+                <div class="footer-section">
+                    <h3>──────</h3>
+                    <ul>
+                        <li><a href="https://wa.me/6285751041691">Contact Us</a></li>
+                    </ul>
+                </div>
+            </footer>
+            <script>
+                document.addEventListener('DOMContentLoaded', function() {
+                    var galleryLink = document.getElementById('gallery-link');
+                    var additionalLinks = document.getElementById('additional-links').querySelector('ul');
+            
+                    galleryLink.addEventListener('click', function(event) {
+                        event.preventDefault();
+                        additionalLinks.style.display = (additionalLinks.style.display === 'none') ? 'block' : 'none';
+                    });
+                });
+            </script>
+            
+</body>
+</html>
+            
